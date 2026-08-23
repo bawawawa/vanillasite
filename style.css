@@ -8,6 +8,16 @@ body {
     padding: 20px;
 }
 
+.blur-hover {
+    filter: blur(4px);
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.blur-hover:hover {
+    filter: none;
+}
+
 h1 {
     font-size: 1.5rem;
     margin-left: 0%;
